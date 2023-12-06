@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(../images/bluearchive.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .video {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box .title{
+    margin-bottom: 10px;
+	height:100px;
+	background:url(../images/blue.png) center no-repeat;
+}
+
+.box .input-box > button {
+    width: 120px;
+    height: 35px;
+    margin-left: 10px;
+    color: rgba(255,255,255,0.9);
+    border: 1px solid rgba(98, 250, 246, 0.7);
+    background: rgba(114, 228, 248, 0.5);
+}
+
+.box .input-box > button:hover {
+    border: 1px solid rgba(100, 183, 250, 0.7);
+    background: rgba(100, 183, 250, 0.7);
+}
+
+#canvas {
+    display: none;
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(../images/bluearchive.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#canvas {
+    display: none;
+}
